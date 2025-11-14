@@ -17,4 +17,9 @@ class TestController extends Controller
     {
         return "This method should not be here.";
     }
+
+    public function test()
+    {
+        return "test";
+    }
 }

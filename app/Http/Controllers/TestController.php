@@ -11,4 +11,8 @@ class TestController extends Controller
     {
         return "Hello, World!";
     }
+
+    public function thisIsIWantMethod(){
+        return "This is the method I want.";
+    }
 }

@@ -20,4 +20,12 @@ class TestController extends Controller
     public function anotherMethod(){
         return "This is another method.";
     }
+
+    public function newFeatureMethod(){
+        return "This is a new feature method.";
+    }
+
+    public function version1Test(){
+        return "This is version 1 test method.";
+    }
 }

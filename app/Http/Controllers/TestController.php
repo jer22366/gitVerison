@@ -9,7 +9,8 @@ class TestController extends Controller
     //
     public function index()
     {
-        return "Hello, World!";
+        
+        return "Hello, World! Test merge Version1";
     }
 
     public function thisIsIWantMethod(){

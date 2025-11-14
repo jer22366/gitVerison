@@ -16,4 +16,8 @@ class TestController extends Controller
     public function thisIsIWantMethod(){
         return "This is the method I want.";
     }
+
+    public function anotherMethod(){
+        return "This is another method.";
+    }
 }

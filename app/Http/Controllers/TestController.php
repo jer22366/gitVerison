@@ -13,8 +13,7 @@ class TestController extends Controller
         return "Hello, World! Test merge Version1";
     }
 
-    public function idontwantthismethod()
-    {
-        return "This method should not be here.";
+    public function thisIsIWantMethod(){
+        return "This is the method I want.";
     }
 }

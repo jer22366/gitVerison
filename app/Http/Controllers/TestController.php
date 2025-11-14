@@ -28,7 +28,11 @@ class TestController extends Controller
     public function version1Test(){
         return "This is version 1 test method.";
     }
-    
+
+    public function version1Test2(){
+        return "This is version 1 test method2.";
+    }
+
     public function version1Test3(){
         return "This is version 1 test method3.";
     }
@@ -38,6 +42,6 @@ class TestController extends Controller
     }
 
     public function conflict(){
-        return "test111111";
+        return "This is version 1 conflict method.";
     }
 }

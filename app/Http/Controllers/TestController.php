@@ -32,4 +32,16 @@ class TestController extends Controller
     public function version1Test3(){
         return "This is version 1 test method3.";
     }
+
+    public function version1Test2(){
+        return "This is version 1 test method2.";
+    }
+
+    public function version1Test4(){
+        return "This is version 1 test method4.";
+    }
+
+    public function conflict(){
+        return "This is version 1 conflict method.";
+    }
 }

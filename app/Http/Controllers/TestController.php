@@ -27,4 +27,8 @@ class TestController extends Controller
     public function version3Test1(){
         return "This is version 3 test method 1.";
     }
+
+    public function version3Test2(){
+        return "This is version 3 test method 2.";
+    }
 }
